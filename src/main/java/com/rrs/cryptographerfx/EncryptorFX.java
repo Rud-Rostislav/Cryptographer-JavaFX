@@ -70,7 +70,7 @@ public class EncryptorFX extends Application {
         scene.getRoot().setStyle(darkModeCss);
 
         // Add instructions
-        Label instructionsLabel = new Label("Щоб зашифрувати/розшифрувати текст, введіть його у вікно \"Введення тексту\" та натисніть на відповідну кнопку. Результат з'явиться у вікні \"Вивід тексту\" і буде скопійовано автоматично до буферу обміну.");
+        Label instructionsLabel = new Label("Щоб зашифрувати/розшифрувати текст, введіть його у вікно \"Введення тексту\" та натисніть на відповідну кнопку. Результат з'явиться у вікні \"Вивід тексту\" і буде автоматично скопійовано до буферу обміну.");
         instructionsLabel.setStyle("-fx-text-fill: white;");
         instructionsLabel.setWrapText(true);
         controlPane.add(instructionsLabel, 0, 5, 2, 1);
